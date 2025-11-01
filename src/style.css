@@ -1,0 +1,55 @@
+@import 'tailwindcss';
+
+
+:root {
+    --color-primary: #DB2A6B;
+    --color-greybg: #2B2D38;
+    --color-greytext: #ABABAB;
+}
+
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url(/fonts/MerriweatherBold-8gyA.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(/fonts/poppins-light.woff);
+}
+
+@font-face {
+    font-family: 'Poppins-regu';
+    src: url(/fonts/poppins-regular.woff);
+}
+
+body {
+    background-color: var(--color-greybg);
+    font-family: 'Poppins', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.brand {
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.brand span {
+    color: white;
+}
+
+header ul li a {
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-greytext);
+    font-size: 15px;
+}
+
+.hero {
+        font-family: 'Poppins', sans-serif;
+}
+
+section div p {
+    color: var(--color-greytext);
+    font-size: 18px;
+}
