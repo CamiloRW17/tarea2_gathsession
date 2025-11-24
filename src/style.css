@@ -53,3 +53,20 @@ section div p {
     color: var(--color-greytext);
     font-size: 18px;
 }
+
+.menu li a:hover {
+    color: white;
+}
+
+.getstarted a:hover {
+    color:#DB2A6B;
+}
+
+.getstarted:hover {
+    background-color: white;
+}
+
+
+.learnmore a:hover {
+    color: #DB2A6B;
+}
