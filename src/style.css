@@ -70,3 +70,11 @@ section div p {
 .learnmore a:hover {
     color: #DB2A6B;
 }
+
+.brand-title:hover {
+    color: white;
+}
+
+.brand-title span:hover {
+    color: #DB2A6B;
+}
